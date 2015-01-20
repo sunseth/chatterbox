@@ -1,0 +1,139 @@
+body {
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+}
+
+.nav-item{
+	float: left;
+	font-size: 20px;
+	padding: 5px 10px 5px 10px;
+	position: relative;
+	top: 50%;
+	 -webkit-transform: translateY(-50%);
+	 -ms-transform: translateY(-50%);
+	 transform: translateY(-50%);
+}
+
+.nav-item:last-child{
+	float: right;
+	font-size: 24px;
+}
+.nav-item img{
+	width: 24px;
+}
+
+#time{
+	font-family: 'Pacifico', cursive;
+}
+
+#title{
+	padding-bottom: 20px;
+	font-family: 'Pacifico', cursive;
+	font-size: 54px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#content {
+	width: 920px;
+	margin: 0 auto;
+	padding: 25px;
+	border: 2px solid black;
+}
+#room {
+	border-bottom: 2px solid black;
+	padding: 10px;
+	font-size: 36px;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 1em;
+}
+#messages {
+	width: 690px;
+	height: 300px;
+	overflow: auto;
+	margin-bottom: 1em;
+	margin-right: 10px;
+}
+
+#messages div{
+	padding: 5px;
+}
+
+#room-list {
+	float: right;
+	font-size: 24px;
+	font-family: 'Lato', sans-serif;
+	width: 180px;
+	height: 300px;
+	overflow: auto;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	padding-left: 10px;
+}
+#room-list div {
+	padding: 5px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+#send-form{
+	margin-top: 30px;
+}
+
+#send-message {
+	width: 680px;
+	margin-bottom: 1em;
+	margin-right: 1em;
+	padding: 10px;
+	appearance: none;
+    box-shadow: none;
+    border-radius: none;
+}
+
+#send-button{
+	border: 1px solid #ccc;
+	color: #777;
+	padding: 10px 120px 10px 20px;
+	text-decoration: none;
+	white-space: nowrap;
+	border-radius: 10px;
+	background: #fff;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	cursor: pointer;
+	cursor: hand;
+}
+
+#send-button:hover{
+	border: 1px solid black;
+}
+
+.invite{
+	cursor: hand;
+	cursor: pointer;
+}
+
+#help {
+	padding: 5px;
+	font-size: 21px;
+	font-family: 'Lato', sans-serif;
+}
+
+#help ul{
+	font-size: 16px;
+}
+
+#help ul li{
+	padding: 5px;
+}
