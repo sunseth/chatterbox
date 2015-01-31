@@ -1,5 +1,6 @@
 body {
-	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	font: 14px;
+	font-family: 'Raleway', sans-serif;
 }
 a {
 	text-decoration: none;
@@ -30,10 +31,6 @@ nav{
 	width: 24px;
 }
 
-#time{
-	font-family: 'Pacifico', cursive;
-}
-
 #title{
 	padding-bottom: 20px;
 	font-family: 'Pacifico', cursive;
@@ -52,7 +49,6 @@ nav{
 	border-bottom: 2px solid black;
 	padding: 10px;
 	font-size: 36px;
-	font-family: 'Lato', sans-serif;
 	margin-bottom: 1em;
 }
 #messages {
@@ -70,12 +66,10 @@ nav{
 #room-list {
 	float: right;
 	font-size: 24px;
-	font-family: 'Lato', sans-serif;
 	width: 180px;
 	height: 300px;
 	overflow: auto;
 	border-left: 2px solid black;
-	border-bottom: 2px solid black;
 	padding-left: 10px;
 }
 #room-list div {
@@ -85,13 +79,14 @@ nav{
 }
 
 #send-form{
+	border-top: 2px solid black;
+	padding-top: 25px;
 	margin-top: 30px;
 }
 
 #send-message {
-	width: 680px;
+	width: 700px;
 	margin-bottom: 1em;
-	margin-right: 1em;
 	padding: 10px;
 	appearance: none;
     box-shadow: none;
@@ -99,24 +94,24 @@ nav{
 }
 
 #send-button{
-	border: 1px solid #ccc;
-	color: #777;
-	padding: 10px 120px 10px 20px;
+	border: 1px solid black;
+	font-size: 16px;
+	padding: 10px 125px 10px 20px;
 	text-decoration: none;
 	white-space: nowrap;
-	border-radius: 10px;
 	background: #fff;
-	-webkit-transition: all 0.3s ease-in;
-	-moz-transition: all 0.3s ease-in;
-	-ms-transition: all 0.3s ease-in;
-	-o-transition: all 0.3s ease-in;
-	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
 	cursor: pointer;
 	cursor: hand;
 }
 
 #send-button:hover{
-	border: 1px solid black;
+	background: black;
+	color: white;
 }
 
 .invite{

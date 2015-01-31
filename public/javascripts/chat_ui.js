@@ -78,13 +78,6 @@ $(document).ready(function(){
 			}
 	}
 
-	socket.on('time', function(date){
-		var timeString = date.month + ' ' + date.day + ' &nbsp&nbsp' 
-		+ date.hour + ':' + date.minute + ':' + date.second + ' ' + date.am_pm;
-
-		$('#time').html(timeString);
-	});
-
 	$('#room-list div').click(function() {
 		chatApp.processCommand('/join ' + $(this).text());
 			$('#send-message').focus();
