@@ -94,24 +94,11 @@ nav{
 }
 
 #send-button{
-	border: 1px solid black;
-	font-size: 16px;
-	padding: 10px 125px 10px 20px;
+	padding: 10px 130px 10px 20px;
 	text-decoration: none;
 	white-space: nowrap;
-	background: #fff;
-	-webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
 	cursor: pointer;
 	cursor: hand;
-}
-
-#send-button:hover{
-	background: black;
-	color: white;
 }
 
 .invite{
